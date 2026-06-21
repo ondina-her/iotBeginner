@@ -32,4 +32,4 @@ while True:
     mqtt_client.publish(client_telemetry_topic, telemetry)
 
 
-    time.sleep(10 * 60);
+    time.sleep(10);
